@@ -1,0 +1,6 @@
+# -SGTR-RL-
+毕业论文源码，对反应堆故障进行了建模和控制
+1.data文件为反应堆模拟机模拟SGTR故障时有操作员介入产生的数据
+2.一回路温度控制文件夹里包含了温度速率控制所需全部之文件，其中rl_process.py为主要文件，使用TD3算法，rl_process_PPO.py使用的是PPO算法。model_constract.ipynb负责建立温度速率LSTM模型。
+3.稳压器水位压力控制文件夹里包含了稳压器控制所需全部之文件，其中main_process.py为主要文件，使用的是PPO算法。data_lstm.ipynb负责建立稳压器LSTM模型。
+4.数据处理文件夹包含数据处理所需之函数，LSTM模型包含建模所需之函数。具体功能见注释。
